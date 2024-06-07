@@ -29,7 +29,7 @@ class cb_batchh extends Model
                         $table->increments('id');
                         $table->string('no_rv')->nullable();
                         $table->date('rv_date')->nullable();
-                        $table->int('totamount')->nullable();
+                        $table->integer('totamount')->nullable();
                         $table->string('docno')->nullable();
                     });
                 }
